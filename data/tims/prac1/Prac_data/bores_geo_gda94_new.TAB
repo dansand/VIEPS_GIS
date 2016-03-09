@@ -1,0 +1,51 @@
+!table
+!version 700
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 29
+    Siteid Decimal (10, 0) ;
+    Drill_dti Decimal (10, 0) ;
+    Depth Float ;
+    Strat_no Decimal (10, 0) ;
+    Quant_no Decimal (10, 0) ;
+    Qual_no Decimal (10, 0) ;
+    Collar_no Decimal (10, 0) ;
+    Geoph_no Decimal (10, 0) ;
+    Core_no Decimal (10, 0) ;
+    Company Char (50) ;
+    Source Char (30) ;
+    Status1 Char (30) ;
+    Usage1 Char (30) ;
+    Method1 Char (30) ;
+    Purpose1 Char (30) ;
+    Subpurp1 Char (30) ;
+    Zone Decimal (10, 0) ;
+    Easting Decimal (20, 4) ;
+    Northing Decimal (20, 4) ;
+    Latitude Float ;
+    Longitude Float ;
+    Locn_acc Decimal (10, 0) ;
+    Locn_meth Char (30) ;
+    Elev_gl Float ;
+    Elev_acc Decimal (10, 0) ;
+    Elev_meth Char (30) ;
+    Localname1 Char (40) ;
+    Parishname Char (25) ;
+    Parishhole Decimal (10, 0) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\Shapefile" = ""
+"\Shapefile\PersistentCache" = "FALSE"
+"\Spatial Reference" = ""
+"\Spatial Reference\Geographic" = ""
+"\Spatial Reference\Geographic\Projection" = ""
+"\Spatial Reference\Geographic\Projection\Clause" = "CoordSys Earth Projection 1, 0"
+"\DefaultStyles" = ""
+"\DefaultStyles\Symbol" = ""
+"\DefaultStyles\Symbol\Type" = "0"
+"\DefaultStyles\Symbol\Pointsize" = "12"
+"\DefaultStyles\Symbol\Color" = "0"
+"\DefaultStyles\Symbol\Code" = "35"
+end_metadata

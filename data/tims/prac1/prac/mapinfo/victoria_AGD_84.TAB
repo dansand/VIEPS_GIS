@@ -1,0 +1,12 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 1
+    tag Char (32) Index 1 ;
+ReadOnly
+begin_metadata
+"\IsReadOnly" = "FALSE"
+end_metadata

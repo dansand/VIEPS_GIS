@@ -1,0 +1,45 @@
+!table
+!version 700
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 19
+    Tno Char (32) ;
+    Typedesc Char (30) ;
+    Actdesc Char (40) ;
+    Own_name Char (50) ;
+    Own_fax Char (15) ;
+    Apprec_dti Decimal (10, 0) ;
+    Grant1_dti Decimal (10, 0) ;
+    Grantl_dti Decimal (10, 0) ;
+    Expl_dti Decimal (10, 0) ;
+    Bond Decimal (10, 0) ;
+    Area_curr Decimal (20, 4) ;
+    Area_orig Decimal (20, 4) ;
+    Statussdsc Char (25) ;
+    Insp Char (30) ;
+    Lga_desc Char (30) ;
+    Map Char (9) ;
+    Lstat_desc Char (60) ;
+    Min_desc Char (30) ;
+    Cso_phone Char (15) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\Shapefile" = ""
+"\Shapefile\PersistentCache" = "FALSE"
+"\Spatial Reference" = ""
+"\Spatial Reference\Geographic" = ""
+"\Spatial Reference\Geographic\Projection" = ""
+"\Spatial Reference\Geographic\Projection\Clause" = "CoordSys Earth Projection 1, 0"
+"\DefaultStyles" = ""
+"\DefaultStyles\Pen" = ""
+"\DefaultStyles\Pen\LineWidth" = "1"
+"\DefaultStyles\Pen\LineStyle" = "0"
+"\DefaultStyles\Pen\Color" = "0"
+"\DefaultStyles\Pen\Pattern" = "2"
+"\DefaultStyles\Brush" = ""
+"\DefaultStyles\Brush\Pattern" = "2"
+"\DefaultStyles\Brush\Forecolor" = "16777215"
+"\DefaultStyles\Brush\Backcolor" = "16777215"
+end_metadata

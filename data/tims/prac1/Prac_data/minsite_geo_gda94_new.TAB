@@ -1,0 +1,65 @@
+!table
+!version 700
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 43
+    Siteid Decimal (10, 0) ;
+    Mine_type Char (30) ;
+    Mine_name Char (80) ;
+    Feat_type Char (30) ;
+    Dep_ty_gen Char (30) ;
+    Dep_ty_sp Char (30) ;
+    Size_cat Char (12) ;
+    Ore_d Decimal (10, 0) ;
+    Ore_dd Decimal (10, 0) ;
+    Depth Decimal (20, 4) ;
+    Minedleng Decimal (20, 4) ;
+    Adit Char (3) ;
+    In_situ Char (3) ;
+    Open_cut Char (3) ;
+    Shaft Char (3) ;
+    Decline Char (3) ;
+    Sluicing Char (3) ;
+    Dredging Char (3) ;
+    Prod_comm Char (100) ;
+    Prod Char (100) ;
+    Prod_units Char (50) ;
+    Ore Char (100) ;
+    Ore_units Char (50) ;
+    Pri_comm Char (50) ;
+    Sec_comm Char (100) ;
+    Min_ass Char (50) ;
+    Host_lith Char (100) ;
+    Ref_ids Char (150) ;
+    Plan_nos Char (250) ;
+    Miningmeth Char (150) ;
+    Project Char (30) ;
+    Ore_2 Char (100) ;
+    Zone Decimal (10, 0) ;
+    Easting Decimal (20, 4) ;
+    Northing Decimal (20, 4) ;
+    Latitude Float ;
+    Longitude Float ;
+    Locn_acc Decimal (10, 0) ;
+    Locn_meth Char (30) ;
+    Elev_gl Float ;
+    Elev_acc Decimal (10, 0) ;
+    Elev_meth Char (30) ;
+    Localname1 Char (40) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\Shapefile" = ""
+"\Shapefile\PersistentCache" = "FALSE"
+"\Spatial Reference" = ""
+"\Spatial Reference\Geographic" = ""
+"\Spatial Reference\Geographic\Projection" = ""
+"\Spatial Reference\Geographic\Projection\Clause" = "CoordSys Earth Projection 1, 0"
+"\DefaultStyles" = ""
+"\DefaultStyles\Symbol" = ""
+"\DefaultStyles\Symbol\Type" = "0"
+"\DefaultStyles\Symbol\Pointsize" = "12"
+"\DefaultStyles\Symbol\Color" = "0"
+"\DefaultStyles\Symbol\Code" = "35"
+end_metadata

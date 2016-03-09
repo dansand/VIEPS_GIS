@@ -1,0 +1,40 @@
+!table
+!version 700
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 14
+    Ufi Decimal (10, 0) ;
+    Map_symb Char (20) ;
+    Oldmapsymb Char (60) ;
+    Unittype Char (5) ;
+    Rank Char (10) ;
+    Unitname Char (70) ;
+    Parents Char (200) ;
+    Ageyoung Char (40) ;
+    Ageold Char (40) ;
+    Envdesc Char (60) ;
+    Feature Char (12) ;
+    Subtype Char (15) ;
+    Lithdesc1 Char (250) ;
+    Lithdesc2 Char (250) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\Shapefile" = ""
+"\Shapefile\PersistentCache" = "FALSE"
+"\Spatial Reference" = ""
+"\Spatial Reference\Geographic" = ""
+"\Spatial Reference\Geographic\Projection" = ""
+"\Spatial Reference\Geographic\Projection\Clause" = "CoordSys Earth Projection 1, 0"
+"\DefaultStyles" = ""
+"\DefaultStyles\Pen" = ""
+"\DefaultStyles\Pen\LineWidth" = "1"
+"\DefaultStyles\Pen\LineStyle" = "0"
+"\DefaultStyles\Pen\Color" = "0"
+"\DefaultStyles\Pen\Pattern" = "2"
+"\DefaultStyles\Brush" = ""
+"\DefaultStyles\Brush\Pattern" = "2"
+"\DefaultStyles\Brush\Forecolor" = "16777215"
+"\DefaultStyles\Brush\Backcolor" = "16777215"
+end_metadata
